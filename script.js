@@ -7,7 +7,7 @@ function setViewport() {
       viewportMeta.setAttribute("content", "width=device-width, initial-scale=0.4");
     } else if (window.innerWidth <= 1024) {
       // Tablet devices
-      viewportMeta.setAttribute("content", "width=device-width, initial-scale=1.0");
+      viewportMeta.setAttribute("content", "width=device-width, initial-scale=0.4");
     } else {
       // Desktop devices
       viewportMeta.setAttribute("content", "width=device-width, initial-scale=0.4");
